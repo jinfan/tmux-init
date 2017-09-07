@@ -1,0 +1,16 @@
+{
+  "name":"sysadmin",
+  "path" : "~/",
+  "window": [
+    {
+      "name" : "admin",
+      "path" : "~/",
+      "syncpanes": "true",
+      "pane" : [
+        { "action": "ssh leopard" },
+        { "action": "ssh lion" },
+        { "action": "ssh rose" }
+      ]
+    }
+  ]
+}

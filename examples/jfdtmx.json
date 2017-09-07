@@ -1,0 +1,24 @@
+{
+  "name":"jfdtmx",
+  "base_session": true,
+  "window": [
+    {
+      "name" : "spark",
+      "path" : "/samba/jinfan/work/spark",
+      "pane" : [
+        { "action": "", "path" : "/samba/jinfan/work/spark" },
+        { "action": "", "path" : "/samba/jinfan/work/spark" },
+        { "action": "", "path" : "/samba/jinfan/work/spark" }
+      ]
+    },
+    {
+      "name" : "sysconfig",
+      "pane" : [
+        { "path" : "~/bin/sysconfig", "action": "git pull" },
+        { "path" : "~/bin/sysconfig", "action": "df && date" },
+        { "action": "mydf" }
+      ]
+    }
+
+  ]
+}
