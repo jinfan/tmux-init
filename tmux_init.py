@@ -199,7 +199,7 @@ class TmuxSession:
             cmd  = "new-window -t %s" % w_id
 
             if w.get('path'):
-                cmd += " -c '%s' " %  w.get('path')
+                cmd += " -c '%s' " %  os.path.expanduser(w.get('path'))
 
             if w.get('name'):
                 cmd += " -n '%s' " % w.get('name')
